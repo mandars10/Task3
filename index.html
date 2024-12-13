@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAKTDARPAN</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">RAKTDARPAN</div>
+      <div class="nav-links-container">
+        <a href="#about" class="nav-links">About</a>
+        <a href="#faq" class="nav-links">FAQ</a>
+        <a href="#contact" class="nav-links">Contact</a>
+        <a href="#Login" class="nav-links">Login</a>
+        <a href="#Login" class="nav-links">Signup</a>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="thought">Save a Life, Donate Blood</h1>
+      </div>
+      <div class="button-container">
+        <button class="donate-button">DONATE NOW</button>
+      </div>
+    </section>
+    <div class="quote-section">
+      <div class="quote">“Together, we can save lives. Every drop counts!”</div>
+    </div>
+    <div class="info-cards-section">
+      <div class="info-cards-container">
+        <div class="info-card">
+          <img
+            src="https://cdn.pixabay.com/photo/2023/11/15/14/28/heart-8390212_640.jpg"
+            alt="image"
+          />
+          <h3>WHAT IS BLOOD DONATION ?</h3>
+          <p>
+            Blood donation is the process of voluntarily giving blood, which is
+            essential for saving lives. The donated blood is used for surgeries,
+            emergencies, cancer treatments, and patients with chronic illnesses
+            like anemia. A single donation can save up to three lives as blood
+            is separated into components like red blood cells, plasma, and
+            platelets.
+          </p>
+        </div>
+        <div class="info-card">
+          <img
+            src="https://img.freepik.com/premium-photo/world-blood-donation-day-celebrate-gift-life-save-lives-together_953733-25661.jpg"
+            alt="image"
+          />
+          <h3>WHO CAN DONATE BLOOD ?</h3>
+          <p>
+            Most healthy adults between the ages of 17 and 65 can donate blood.
+            Donors must weigh at least 50 kg (110 pounds) and meet basic health
+            requirements. Before donating, individuals undergo a health
+            screening to ensure that the donation is safe for both the donor and
+            recipient. Donors can give blood every 56 days for whole blood
+            donations.
+          </p>
+        </div>
+        <div class="info-card">
+          <img
+            src="https://media.assettype.com/freepressjournal/2022-09/6303020c-9dce-42af-bfaf-7259d3384fc5/blood_donation.webp?width=1200"
+            alt="image"
+          />
+          <h3>WHY IS BLOOD DONATION IMPORTANT ?</h3>
+          <p>
+            Blood donation is crucial because there is no substitute for human
+            blood. It's constantly needed for medical procedures and
+            emergencies. By donating, you help ensure a stable blood supply,
+            which can save lives, especially in times of crisis. Regular donors
+            play a vital role in keeping communities healthy and prepared for
+            unforeseen events
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="quote-section-2">
+      <div class="quote-2">
+        <p class="quote-2-thought">
+          “The blood you donate gives someone another chance at life. One day
+          that someone may be a close relative, a friend, a loved one or even
+          you”
+        </p>
+      </div>
+    </div>
+    <div class="about-container" id="about">
+      <div class="about-card">
+        <div class="about-image-card">
+          <img
+            src="https://jammubloodcentre.com/wp-content/uploads/2023/10/jammu-blood-centre-about-us.jpg"
+            alt="About Us"
+            class="about-image"
+          />
+        </div>
+        <div class="about-info">
+          <h2>About Us</h2>
+          <p>
+            We are dedicated to providing safe blood donations. With a robust
+            network of donors and healthcare professionals, we strive to
+            maintain an uninterrupted blood supply for emergency and routine
+            medical procedures.
+          </p>
+          <p>
+            Our primary goal is to connect willing donors with those in need,
+            ensuring every donation is utilized efficiently to save lives.
+          </p>
+          <h3>What We Do:</h3>
+          <ul>
+            <li>
+              We organize blood donation camps and facilitate easy, safe blood
+              donations through our centers.
+            </li>
+            <li>
+              We raise awareness about the importance of blood donation through
+              educational campaigns, helping communities understand the
+              life-saving impact of every contribution.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="faq" class="faq-section">
+      <h2 class="faq-tittle">Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(0)">
+          Who is eligible to donate blood?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Generally, individuals must be in good health, at least 16 or 17 years
+          old (depending on the country or state regulations), and weigh at
+          least 110 pounds (50 kg). Specific eligibility criteria may vary based
+          on health history, medications, and recent travel.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(1)">
+          How often can I donate blood?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Whole blood donations can typically be made every 56 days (8 weeks).
+          For platelet donations, the interval is usually about 7 days, and for
+          plasma donations, it can be every 28 days. However, these intervals
+          may vary based on local guidelines.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(2)">
+          Is it safe to donate blood?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Yes, donating blood is generally safe. Blood donation centres follow
+          strict safety protocols to ensure that the process is safe for both
+          donors and recipients. Sterile, single-use equipment is used for each
+          donation to prevent infections.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(3)">
+          What should I do to prepare for donating blood?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Before donating blood, it is recommended to drink plenty of fluids,
+          eat a healthy meal, and avoid fatty foods. Getting a good night's
+          sleep before donating is also advisable. Avoid alcohol and heavy
+          exercise before the donation.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(4)">
+          How long does the blood donation process take?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          The entire process usually takes about 1 hour, including registration,
+          a brief medical history, a mini-physical exam, and the donation
+          itself, which typically takes about 10-15 minutes.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(5)">
+          What happens to the blood after donation?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          After donation, blood is tested for infectious diseases, blood type,
+          and other factors. It is then separated into components like red
+          cells, plasma, and platelets and stored appropriately until needed by
+          patients.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(6)">
+          Can I donate blood if I have a tattoo or piercing?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          In many places, you can donate blood if you have a tattoo or piercing,
+          provided it was done with sterile needles and ink at a licensed
+          facility. You may need to wait a certain period, typically around 3-12
+          months, depending on local regulations.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(7)">
+          Will donating blood hurt?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Donors may feel a quick pinch or sting when the needle is inserted,
+          but many people find it relatively painless. Some may experience
+          slight discomfort or bruising afterward, but this usually resolves
+          quickly.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(8)">
+          Can I donate blood if I am on medication?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Many medications do not disqualify you from donating blood, but it
+          depends on the type of medication and the reason you are taking it.
+          It's best to inform the donation center about any medications you're
+          taking, so they can assess your eligibility.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(9)">
+          What are the benefits of donating blood?
+          <span class="arrow">&#9654;</span>
+        </div>
+        <div class="faq-answer">
+          Donating blood helps save lives by providing vital blood components to
+          patients in need. It can also have health benefits for the donor, such
+          as reducing the risk of certain diseases, promoting heart health, and
+          giving a sense of satisfaction from helping others.
+        </div>
+      </div>
+    </div>
+    <div class="eligibility-criteria">
+      <h2>Eligibility Criteria</h2>
+      <ul>
+        <li>Donors must be between 18 and 65 years old.</li>
+        <li>A minimum weight of 50 kg (110 pounds) is required.</li>
+        <li>
+          Donors should be in good general health and feeling well on the day of
+          donation.
+        </li>
+        <li>
+          Hemoglobin levels must be at least 12.5 g/dL for females and 13 g/dL
+          for males.
+        </li>
+        <li>
+          Whole blood donations should not have been made in the past 56 days.
+        </li>
+        <li>Donors should not have had any recent infections or illnesses.</li>
+        <li>
+          Individuals on antibiotics or certain medications may not be eligible.
+        </li>
+        <li>
+          Recent travel to areas with malaria or other endemic diseases may
+          result in temporary deferral.
+        </li>
+        <li>
+          Those with high-risk factors for infections like HIV or hepatitis are
+          not eligible.
+        </li>
+        <li>Pregnant or breastfeeding women cannot donate.</li>
+        <li>
+          Donors should not have had major surgery within the past 6 months.
+        </li>
+      </ul>
+    </div>
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Email: contact@blooddonation.com</p>
+      <p>Phone: +123 456 7890</p>
+      <button>Get in Touch</button>
+    </section>
+    <footer class="footer">
+      <p>&copy; RAKTDARPAN - Blood Bank. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
